@@ -1,0 +1,312 @@
+# Lean Inception — Cookbook
+# Board: MVP Inception
+# URL pública (confirmar acesso sem login antes de entregar):
+
+https://miro.com/app/board/uXjVHAg1rxY=/?share_link_id=692868028776
+
+---
+
+## Kickoff
+
+### Roteiro
+1. Patrocinadora principal abre com discurso sobre a iniciativa
+2. Apresentação da agenda da Lean Inception e do conceito de MVP
+3. Cada participante escreve seu nome em post-it (cor conforme envolvimento)
+
+### Time núcleo (post-its amarelos)
+
+| Nome | Papel |
+|---|---|
+| Matheus | Product Owner |
+| Thalara | Scrum Master |
+| Evelyn | Dev Frontend |
+| Lucas | Dev Backend |
+| Vanessa | QA |
+| Fernando | DevOps |
+| Bruna | UX / Prototipação |
+
+### Stakeholders (post-its roxos)
+
+| Nome | Papel |
+|---|---|
+| Helena | Marketing |
+| Aline | Customer Success |
+
+---
+
+## Agenda
+
+| | Segunda | Terça | Quarta | Quinta | Sexta |
+|---|---|---|---|---|---|
+| **Manhã** | Kickoff · Product Vision | Personas | Feature Brainstorming | Sequencer | MVP Canvas |
+| **Almoço** | — | — | — | — | — |
+| **Tarde** | IS / IS NOT / DOES / DOES NOT · Product Goals | User Journeys | Technical, Business and UX Review | MVP Canvas | Showcase |
+
+---
+
+## Parking Lot
+
+| Item | Motivo |
+|---|---|
+| Assistente virtual | Fora do escopo MVP |
+| Comentários e avaliações em receitas | Incremento futuro |
+| Manutenção preventiva / corretiva | Fora do domínio |
+| Integração com iFood ou delivery | Fora do domínio |
+| Receitas com mídias | Incremento futuro |
+| Modo escuro | Desejável, não prioritário |
+| Compartilhamento em redes sociais | Incremento futuro |
+| Filtro de descobertas | Incremento futuro |
+
+---
+
+## Glossário
+
+| Termo | Definição |
+|---|---|
+| Cookbook | Coleção pessoal de receitas do usuário na plataforma |
+| Receita privada | Receita visível apenas para o autor |
+| Receita pública | Receita visível no feed de descoberta |
+| Fork | Cópia de receita pública para o cookbook pessoal |
+| Descoberta | Feed de receitas públicas de outros usuários |
+| Ingrediente | Item da lista de componentes de uma receita |
+| MVP | Minimum Viable Product — versão mínima para validar hipóteses |
+| SPA | Single Page Application — front-end web sem recarregar página |
+
+---
+
+## Product Vision
+
+**Para** cozinheiros amadores
+**que** têm receitas espalhadas em cadernos, WhatsApp e prints
+**o** Cookbook **é um** aplicativo web
+**que** facilita guardar, organizar e descobrir receitas
+**Diferente de** apps genéricos de notas e redes sociais
+**nosso produto** coloca a receita no centro — simples, textual e pessoal
+
+---
+
+## IS / IS NOT / DOES / DOES NOT DO
+
+### É
+- Aplicativo web (SPA)
+- Gratuito (no MVP)
+- Cookbook digital pessoal
+
+### Não é
+- Rede social (Facebook, Instagram, Twitter)
+- App de delivery de comida
+- Aplicativo mobile nativo (no MVP)
+- Chat ou mensageiro
+
+### Faz
+- Cadastrar e autenticar usuários
+- Criar receitas privadas
+- Listar cookbook pessoal
+- Fazer fork de receitas públicas
+- Editar receitas próprias
+- Tornar receita pública ou privada
+
+### Não faz
+- Vender ingredientes ou marmitas
+- Calcular valores nutricionais
+- Agendar entregas ou serviços
+- Processar pagamentos
+- Mostrar consultoria de chefs profissionais
+- Streaming de vídeo de receitas (no MVP)
+
+---
+
+## Product Goals
+
+### Organizar receitas
+- Salvar receitas em um só lugar
+- Salvar ingredientes e instruções com facilidade
+- Acessar receitas de qualquer dispositivo com navegação
+- Substituir cadernos de papel e anotações dispersas
+
+### Engajar a comunidade
+- Compartilhar receitas públicas
+- Descobrir inspiração de outros cozinheiros
+- Fazer fork de receitas para personalizar
+- Convidar amigos para usar a plataforma
+
+### Crescer e monetizar
+- Aumentar usuários cadastrados
+- Aumentar receitas criadas por usuário
+- Plano premium (receitas ilimitadas) *(futuro)*
+- Anúncios contextuais *(futuro)*
+
+---
+
+## Personas
+
+### Persona 1 — Lucas (explorador)
+- **Perfil:** 28 anos · solteiro · curioso na cozinha · desenvolvedor
+- **Comportamento:** experimenta receitas novas no fim de semana · busca inspiração online · pouca paciência para apps complexos
+- **Necessidades:** descobrir receitas públicas · salvar ideias no cookbook · adaptar receitas de outros (fork)
+
+### Persona 2 — Marina (organizadora)
+- **Perfil:** 32 anos · casada · cozinha em casa 4–5x/semana · analista administrativa
+- **Comportamento:** organizada · prática · anota receitas da família · usa WhatsApp para fotos de receitas
+- **Necessidades:** digitalizar receitas de cadernos · editar com facilidade · consultar antes de ir ao mercado · compartilhar ocasionalmente
+
+---
+
+## User Journeys
+
+### Jornada 1 — Marina cadastra sua primeira receita
+**Objetivo:** Marina quer receita de bolo de vó no almoço de domingo
+
+1. Procura anotação antiga no caderno e não encontra
+2. Colega indica o Cookbook
+3. Acessa o site e cria conta
+4. Faz login e vê cookbook vazio
+5. Clica em "Nova receita"
+6. Preenche título, descrição, ingredientes e modo de preparo
+7. Salva a receita como privada
+8. Visualiza a receita no cookbook
+
+**Resultado:** Consulta a receita no celular e faz o bolo de vó
+
+### Jornada 2 — Lucas descobre uma receita
+**Objetivo:** Lucas descobre uma receita
+
+1. Faz login no Cookbook
+2. Navega para "Descobrir"
+3. Busca nas receitas alguma que lhe agrade
+4. Visualiza ingredientes e modo de preparo
+5. Salva a receita (fork)
+6. Visualiza a receita no cookbook
+7. Decide cozinhar aquela receita
+
+**Resultado:** Segue o preparo na cozinha
+
+### Jornada 3 — Marina compartilha uma receita
+**Objetivo:** Marina compartilha uma receita
+
+1. Abre o Cookbook e localiza sua receita
+2. Clica em editar receita
+3. Marca receita como pública
+4. Salva alterações
+5. Receita aparece no feed de descoberta
+
+**Resultado:** Amiga encontra e usa a receita no feed
+
+---
+
+## Feature Brainstorming
+
+| # | Feature |
+|---|---|
+| 1 | Cadastro de usuário |
+| 2 | Login de usuário |
+| 3 | Criar receita privada |
+| 4 | Listar cookbook pessoal |
+| 5 | Visualizar detalhes da receita |
+| 6 | Editar receita própria |
+| 7 | Excluir receita própria |
+| 8 | Descobrir receitas públicas (feed) |
+| 9 | Tornar receita pública / privada |
+| 10 | Fork de receita pública |
+| 11 | Paginação no feed de descoberta |
+| 12 | Filtrar receitas públicas (feed) |
+| 13 | Tags e categorias |
+| 14 | Upload de mídias (foto, vídeo) da receita |
+| 15 | Página de perfil do usuário |
+| 16 | Exportar receita em PDF |
+| 17 | Compartilhar link da receita entre aplicativos |
+
+---
+
+## Technical, Business and UX Review
+
+Legenda: E = esforço (1–3) · $ = valor de negócio (1–3) · ♥ = UX (1–3) · 🟢 alta · 🟡 média
+
+| Feature | E | $ | ♥ | Confiança |
+|---|---|---|---|---|
+| Cadastro de usuário | 2 | 3 | 3 | 🟢 |
+| Login de usuário | 2 | 3 | 3 | 🟢 |
+| Criar receita privada | 2 | 3 | 3 | 🟢 |
+| Listar cookbook pessoal | 2 | 3 | 3 | 🟢 |
+| Visualizar detalhes da receita | 2 | 3 | 3 | 🟢 |
+| Editar receita própria | 2 | 3 | 3 | 🟢 |
+| Excluir receita própria | 1 | 2 | 2 | 🟢 |
+| Descobrir receitas públicas (feed) | 3 | 3 | 3 | 🟢 |
+| Tornar receita pública / privada | 2 | 3 | 2 | 🟢 |
+| Fork de receita pública | 3 | 3 | 3 | 🟡 |
+| Paginação no feed de descoberta | 2 | 2 | 2 | 🟢 |
+| Filtrar receitas públicas (feed) | 2 | 2 | 2 | 🟡 |
+| Tags e categorias | 3 | 2 | 2 | 🟡 |
+| Upload de mídias (foto, vídeo) | 3 | 2 | 2 | 🟡 |
+| Página de perfil do usuário | 2 | 2 | 2 | 🟢 |
+| Exportar receita em PDF | 2 | 1 | 2 | 🟡 |
+| Compartilhar link entre aplicativos | 2 | 3 | 3 | 🟢 |
+
+---
+
+## Sequencer
+
+Marcador **MVP** após a **Onda 3** (Ondas 4 e 5 = incrementos futuros).
+
+### Onda 1 — Identidade e primeira receita (Sprint 1)
+- Cadastro de usuário
+- Login de usuário
+- Criar receita privada
+
+### Onda 2 — Cookbook pessoal (Sprint 2)
+- Listar cookbook pessoal
+- Visualizar detalhes da receita
+- Editar receita própria
+
+### Onda 3 — Descoberta social ← MVP (Sprint 3)
+- Descobrir receitas públicas (feed)
+- Tornar receita pública / privada
+- Fork de receita pública
+
+### Onda 4 — Incremento 1: navegação no feed (Sprint 4)
+- Paginação no feed de descoberta
+- Filtrar receitas públicas
+- Tags e categorias
+
+### Onda 5 — Incremento 2: mídias e compartilhamento (Sprint 5)
+- Upload de mídias (foto, vídeo)
+- Exportar receita em PDF
+- Compartilhar link da receita entre aplicativos
+
+---
+
+## MVP Canvas
+
+### Personas segmentadas
+- Cozinheiro organizador (Lucas)
+- Cozinheira organizadora (Marina)
+
+### Jornadas
+- Marina cadastra sua primeira receita
+- Marina compartilha uma receita
+- Lucas descobre uma receita
+
+### Proposta do MVP
+Validar se cozinheiros amadores cadastram, editam, compartilham e descobrem receitas na plataforma web.
+
+### Funcionalidades (MVP)
+- Cadastro e login
+- CRUD básico de receita (criar, listar, ver, editar)
+- Tornar receita pública
+- Fork
+
+### Custo e cronograma
+- 2 meses com equipe enxuta (7 pessoas)
+- Infra ~R$ 200/mês (cloud básico + SQLite/PostgreSQL)
+
+### Resultados esperados
+- 500 usuários em 3 meses; 40% criam ≥ 1 receita
+- 200+ receitas no banco
+
+### Métricas
+- Cadastros/semana
+- Receitas criadas por usuário
+- Receitas públicas publicadas
+- Retenção D7
+
+---
