@@ -6,4 +6,4 @@ Entrega de MVP da disciplina de Gestão Ágil de Projetos e Produtos.
 
 MIRO: https://miro.com/app/board/uXjVHAg1rxY=/?share_link_id=692868028776 \
 FIGMA: https://www.figma.com/design/4cVrpLlQfl8gvke42i6d0B/Cookbook-Web-App?node-id=8306-32&t=Vky0TdyhRo4YTlXx-1 \
-YOUTUBE: https://youtu.be/X9npPTPlVW0
+YOUTUBE: https://www.youtube.com/watch?v=4Ska5s0Wy_8
