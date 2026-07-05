@@ -1,6 +1,6 @@
 # Lean Inception — Cookbook
 # Board: MVP Inception
-# URL pública (confirmar acesso sem login antes de entregar):
+# URL pública:
 
 https://miro.com/app/board/uXjVHAg1rxY=/?share_link_id=692868028776
 
